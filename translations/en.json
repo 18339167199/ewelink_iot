@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "This account is already configured"
+        },
+        "error": {
+            "cannot_connect": "Cannot connect to eWeLink servers",
+            "invalid_auth": "Invalid email or password",
+            "unknown": "An unexpected error occurred",
+            "user_not_exist": "User account not exist"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Password"
+                },
+                "description": "The credentials for {account} need to be updated",
+                "title": "Reauthenticate with eWeLink"
+            },
+            "user": {
+                "data": {
+                    "account": "Account",
+                    "password": "Password",
+                    "region": "Region"
+                },
+                "description": "Enter your eWeLink account credentials",
+                "title": "Connect to eWeLink IoT"
+            }
+        }
+    },
+    "entity": {
+        "switch": {
+            "switch_channel": {
+                "name": "Channel {channel}"
+            }
+        }
+    }
+}
